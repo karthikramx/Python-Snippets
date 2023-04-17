@@ -13,11 +13,4 @@ print(reduce(accumulator,my_list,0))
 
 
 
-# exercise : capitalize all pet names
 
-my_pets = ['sisi', 'bibi', 'titi', 'carla']
-
-def capitalize(item:str):
-    return item.capitalize()
-
-print(list(map(capitalize, my_pets)))
